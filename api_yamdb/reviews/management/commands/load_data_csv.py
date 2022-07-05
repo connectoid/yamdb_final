@@ -1,7 +1,6 @@
 import csv
 
 from django.core.management import BaseCommand
-
 from reviews.models import User, Category, Genre, Title, Review, Comment
 
 CSV_PATH = 'static/data/'
