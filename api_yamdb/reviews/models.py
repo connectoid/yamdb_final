@@ -1,6 +1,7 @@
+from api.validators import title_year_validator, validate_score
 from django.contrib.auth.models import AbstractUser
 from django.db import models
-from api.validators import validate_score, title_year_validator
+
 
 class User(AbstractUser):
     USER = 'user'

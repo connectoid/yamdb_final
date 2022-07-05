@@ -4,8 +4,8 @@ from rest_framework.exceptions import ValidationError
 from rest_framework.generics import get_object_or_404
 from rest_framework.relations import SlugRelatedField
 from rest_framework.validators import UniqueTogetherValidator
-
 from reviews.models import Category, Comment, Genre, Review, Title, User
+
 from .validators import username_not_me
 
 
