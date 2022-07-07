@@ -62,7 +62,6 @@ docker-compose exec web python manage.py createsuperuser
 Белей Александр - https://github.com/connectoid
 
 ## Развёрнутый проект
-http://158.160.2.88/api/v1/
 
 http://158.160.2.88/admin/
 
