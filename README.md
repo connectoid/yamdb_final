@@ -63,5 +63,7 @@ docker-compose exec web python manage.py createsuperuser
 
 ## Развёрнутый проект
 http://158.160.2.88/api/v1/
+
 http://158.160.2.88/admin/
+
 http://158.160.2.88/redoc/
